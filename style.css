@@ -190,7 +190,7 @@ header{
 }
 /* Portfolio section CSS end here */
 
-/* Awards & Recognitions section start here */
+/* Awards & Recognitions CSS start here */
 .awards{
     height: 500px;
     padding: 120px 0px;
@@ -218,9 +218,9 @@ header{
     width: 40%;
 }
 
-/* Awards & Recognitions section end here */
+/* Awards & Recognitions CSS end here */
 
-/* Testimonial section start here */
+/* Testimonial CSS start here */
 .testimnl{
     background-color: #000;
     color: #fff;
@@ -253,4 +253,10 @@ header{
     margin-bottom: 10px;
 }
 
-/* Testimonial section end here */
+/* Testimonial CSS end here */
+
+/* single image CSS start here */
+.singleImage{
+    overflow: hidden;
+}
+/* Single image CSS end here */
