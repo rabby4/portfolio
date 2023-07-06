@@ -219,3 +219,38 @@ header{
 }
 
 /* Awards & Recognitions section end here */
+
+/* Testimonial section start here */
+.testimnl{
+    background-color: #000;
+    color: #fff;
+    height: 600px;
+}
+.iconDiv{
+    background-color: #fd5526;
+    padding: 35px;
+    height: 130px;
+    display: flex;
+    align-items: end;
+}
+.iconDiv i{
+    font-size: 60px;
+}
+.contDiv{
+    display: flex;
+}
+.testcont{
+    margin-left: 10%;
+    padding: 150px 0px;
+}
+.testcont h1 {
+    font-size: 42px;
+    margin-bottom: 50px;
+}
+.testcont h4, small{
+    text-align: right;
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* Testimonial section end here */
