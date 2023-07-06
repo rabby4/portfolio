@@ -128,3 +128,64 @@ header{
 }
 
 /* Gallery section CSS end here */
+
+/* Portfolio section CSS start here */
+.prtfSec{
+    width: 100%;
+}
+.prtf{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    align-items: center;
+}
+.hAndP, .expLink{
+    width: 50%;
+}
+.hAndP h2{
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+.devider{
+    position: relative;
+}
+.devider::before{
+    content: "";
+    position: absolute;
+    width: 160px;
+    height: 2px;
+    background-color: #fd5526;
+}
+.hAndP p{
+    font-size: 18px;
+    font-family: syne;
+    font-weight: 300;
+    margin-top: 90px;
+}
+.expLink{
+    font-size: 50px;
+    font-family: syne;
+    font-weight: 700;
+    margin-left: 100px;
+}
+.eLink{
+    margin-bottom: 60px;
+}
+.eLink a:hover{
+    color: #fd5526;
+}
+.eLink a{
+    color: #000;
+    letter-spacing: 3px;
+    transition: all 0.3s;
+}
+.eLink i{
+    margin-left: 25px;
+}
+.prtfImg img{
+    border: 2px solid #000;
+}
+.prtfImg img:nth-child(2){
+    margin: 0px 10px;
+}
+/* Portfolio section CSS end here */
