@@ -260,3 +260,57 @@ header{
     overflow: hidden;
 }
 /* Single image CSS end here */
+
+/* Contact Info CSS start here */
+.contactInfo{
+
+    height: 650px;
+    display: flex;
+    align-items: center;
+}
+.info{
+    width: 50%;
+}
+.info h1{
+    font-size: 55px;
+    line-height: 55px;
+    font-weight: 700;
+    margin-bottom: 100px;
+}
+.info h3 i{
+    margin-right: 20px;
+    font-size: 20px;
+}
+.info h3 {
+    font-size: 25px;
+    margin-bottom: 25px;
+}
+.contactform{
+    width: 50%;
+    /* text-align: right; */
+}
+.contactform input {
+    width: 90%;
+    font-size: 16px;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 2px solid #000;
+    font-family: 'Syne';
+    font-weight: 300;
+}
+.contactform input:focus{
+    outline-color: transparent;
+}
+.contactform textarea{
+    width: 90%;
+    font-size: 16px;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 2px solid #000;
+    font-family: 'Syne';
+    font-weight: 300;
+}
+.contactform textarea:focus{
+    outline-color: transparent;
+}
+/* SContact Info CSS end here */
