@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Syne:wght@400;500;600;700;800&display=swap');
+*{
+    margin:0;
+    padding:0;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: syne;
+}
+.btn{
+    padding: 15px 45px;
+    background-color: #fd5526;
+    font-family: syne;
+    font-size: 19px;
+    text-transform: uppercase;
+    font-weight: 600;
+    border: 2px solid #fd5526;
+    transition: all 0.3s;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: transparent;
+    border: 2px solid #fd5526;
+    color: #fd5526;
+}
+
+/* Header Css Start from here*/
+
+header{
+    background-color: #000;
+    padding: 25px 0px;
+}
+.container{
+    width: 1200px;
+    margin: auto;
+}
+.headSec{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu{
+    width: 40%;
+}
+.menuList{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.menuList li{
+    font-size: 15px;
+    list-style-type: none;
+    font-family: syne;
+    text-transform: uppercase;
+    transition: all 0.2s linear;
+}
+.menuList li:hover{
+    color: #fd5526;
+    cursor: pointer;
+}
+/* Header CSS end here */
+
+/* Hero section CSS start from here */
+
+.heroSec{
+    background-color: #000;
+    height: 600px;
+    color: #fff;
+    display: flex;
+}
+.heroSec h1{
+    font-size: 75px;
+    line-height: 75px;
+    margin-bottom: 50px;
+}
+/* Hero section CSS End here */
+
+/* About section CSS start from here */
+.about{
+    height: 750px;
+}
+.about-container{
+    height: 100%;
+}
+.cntArea{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    
+
+}
+.leftcont{
+    margin-right: 105px;
+}
+.leftcont h2{
+        font-size: 50px;
+        margin-bottom: 50px;
+}
+.leftcont p{
+    font-size: 18px;
+    font-family: syne;
+    font-weight: 300;
+    margin-bottom: 40px;
+}
+
+/* About section CSS end here */
