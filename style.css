@@ -189,3 +189,33 @@ header{
     margin: 0px 10px;
 }
 /* Portfolio section CSS end here */
+
+/* Awards & Recognitions section start here */
+.awards{
+    height: 500px;
+    padding: 120px 0px;
+}
+.sectionHeader h2{
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+.allRow{
+    padding: 25px 0px;
+    font-family: syne;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid #000;
+}
+.awrdName, .awrdYr{
+    font-size: 19px;
+    width: 20%;
+}
+.awrdNom{
+    font-size: 40px;
+    font-weight: 600;
+    text-align: left;
+    width: 40%;
+}
+
+/* Awards & Recognitions section end here */
