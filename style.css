@@ -287,7 +287,6 @@ header{
 }
 .contactform{
     width: 50%;
-    /* text-align: right; */
 }
 .contactform input {
     width: 90%;
@@ -313,4 +312,27 @@ header{
 .contactform textarea:focus{
     outline-color: transparent;
 }
-/* SContact Info CSS end here */
+/* Contact Info CSS end here */
+
+/* Footer CSS start here */
+.copyright{
+    padding: 30px 0px;
+    border-top: 2px solid #000;
+    display: flex;
+}
+.copyrighttext{
+    width: 50%;
+}
+.copyrighttext p{
+    font-family: 'open sans';
+    font-size: 15px;
+}
+.social{
+    width: 50%;
+    text-align: right;
+}
+.social i {
+    font-size: 25px;
+    margin-left: 25px;
+}
+/* Footer CSS end here */
