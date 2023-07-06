@@ -105,3 +105,26 @@ header{
 }
 
 /* About section CSS end here */
+
+/* Gallery section CSS start here */
+.glrySec{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.btmimgs{
+    display: flex;
+    align-items: center;
+    margin-top: -4px;    
+}
+.centerGlry {
+    margin-top: 5px;
+}
+.rightGlry{
+    display: flex;
+    flex-direction: column;
+}
+
+/* Gallery section CSS end here */
