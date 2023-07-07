@@ -1,0 +1,19 @@
+/* Hero section CSS start from here */
+.aboutHero{
+    height: auto !important;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 100px 0px 150px 0px;
+}
+.aboutHero img{
+    margin-bottom: 50px;
+}
+.aboutHero p{
+    font-family: 'syne';
+    font-size: 16px;
+    margin: 0px 150px 50px;
+    line-height: 25px;
+}
+/* Hero section CSS End here */

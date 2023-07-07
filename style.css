@@ -43,7 +43,6 @@ header{
     width: 40%;
 }
 .menuList{
-    color: #fff;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -54,6 +53,10 @@ header{
     font-family: syne;
     text-transform: uppercase;
     transition: all 0.2s linear;
+}
+.menuList li a{
+    color: #fff;
+    text-decoration: none;
 }
 .menuList li:hover{
     color: #fd5526;
